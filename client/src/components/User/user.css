@@ -1,0 +1,32 @@
+.User {
+	width: 90%;
+	max-width: 800px;
+	min-height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.User__tasck {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+	margin-top: 20px
+}
+
+.User__tasck > div {
+	cursor: pointer;
+	margin-left: 20px;
+	padding: 0 5px 5px;
+	border-bottom: 1px solid transparent;
+	transition: 0.4s;
+}
+
+.User__tasck > div:hover {
+	border-bottom: 1px solid aqua;	
+}
+
+.User-tasck_page {
+	width: 100%;
+	min-height: 200px;
+	margin: 20px 0;
+}

@@ -1,0 +1,34 @@
+.UserTasckLink {
+    border: 2px solid aqua;
+    padding: 10px;
+    margin: 20px 0 0;
+}
+
+.UserTasckLink__tasck {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+
+.UserTasckLink__tasck > div {
+    background: aqua;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.UserTasckLink__tasck > div:hover {
+	background: #05c8c8;
+}
+
+.UserTasckLink__tasck > div.red {
+	background: red;
+}
+
+.UserTasckLink__tasck > div.red:hover {
+	background: #a90707;
+}

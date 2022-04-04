@@ -1,0 +1,32 @@
+
+.Registration {
+	width: 600px;
+	border: 1px solid red;
+	margin: 50px auto;
+	text-align: center;
+  border-radius: 50px;
+  min-height: 380px;
+  padding: 20px;
+}
+
+.Registration input {
+	display: block;
+	width: 90%;
+	padding: 5px 10px;
+	margin: 40px auto;
+	border: none;
+	border-bottom: 1px solid red;
+	outline: 0;
+}
+
+.Registration button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: aqua;
+    border: navajowhite;
+    cursor: pointer;
+}
+
+.Registration button:hover {
+	background: #00dfdf;
+}

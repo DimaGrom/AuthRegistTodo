@@ -1,0 +1,28 @@
+.logOut {
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.btnWrapper > div {
+  width: 140px;
+  background: aqua;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  line-height: 40px;
+}
+
+.btnWrapper > div:hover {
+	background: #0ce4e4;
+}
+

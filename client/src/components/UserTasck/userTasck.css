@@ -1,0 +1,67 @@
+.UserTasck {
+	margin: 20px 0;
+}
+
+textarea {
+	padding: 5px 10px;
+}
+
+textarea:valid {
+   border: 2px solid lime;
+}
+
+textarea:invalid {
+  border: 2px dashed red;
+}
+
+.wrapper_btn__add {
+	display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.btn__add {
+    padding: 10px 20px;
+    border: navajowhite;
+    border-radius: 5px;
+    background: aqua;
+    cursor: pointer;
+    transform: 0.4s;
+}
+
+.btn__add:hover {
+	background: #12e2e2;
+}
+
+.UserTasck__tasck {
+    margin: 20px 0;
+    padding-bottom: -23px;
+    margin: 20px 0 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.UserTasck__tasck > button {
+    width: 200px;
+    height: 40px;
+    line-height: 25px;
+    cursor: pointer;
+    background: aqua;
+    border: navajowhite;
+    border-radius: 12px;
+    transition: 0.4s;
+    color: white;
+}
+
+.UserTasck__tasck > button:hover {
+	background: #12e2e2;
+}
+
+.UserTasck__tasck > button.red {
+    background: red;
+}
+
+.UserTasck__tasck > button.red:hover {
+    background: #a90707;
+}

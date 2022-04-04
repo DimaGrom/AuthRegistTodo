@@ -1,0 +1,41 @@
+
+.LogIn {
+	width: 600px;
+	border: 1px solid red;
+	margin: 50px auto;
+	text-align: center;
+  border-radius: 50px;
+  min-height: 300px;
+  padding: 20px;
+}
+
+.LogIn input {
+	display: block;
+	width: 90%;
+	padding: 5px 10px;
+	margin: 40px auto;
+	border: none;
+	border-bottom: 1px solid red;
+	outline: 0;
+}
+
+.LogIn button {
+    padding: 10px 20px;
+    border-radius: 10px;   
+    border: navajowhite;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: 0 50px;
+}
+
+.LogIn button.goiin {
+	background: aqua;
+}
+
+.LogIn button.registration {
+	background: none;
+}
+
+.LogIn button:hover {
+	background: #00dfdf;
+}

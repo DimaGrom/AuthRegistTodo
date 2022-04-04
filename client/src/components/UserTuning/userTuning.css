@@ -1,0 +1,58 @@
+.UserTuning {}
+
+.UserTuning h2 {
+	margin: 30px 0;
+	padding: 0
+}
+
+.UserTuning .delete {
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.UserTuning .delete:hover {
+ 	background: #d90505;
+
+}
+
+.UserTuning .modal__content.active {
+	height: 200px;
+	margin-bottom: 100px;
+}
+
+.UserTuning .modal__content.active div.tasck {
+	display: flex;
+	justify-content: space-around;
+    margin: 50px 0;
+}
+
+.UserTuning .modal__content.active div.tasck > div {
+    background: red;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.UserTuning .modal__content.active div.tasck > div.yes {
+    background: red;
+}
+
+.UserTuning .modal__content.active div.tasck > div.yes:hover {
+	background: #bf0202
+}
+
+.UserTuning .modal__content.active div.tasck > div.not {
+    background: aqua;
+}
+
+.UserTuning .modal__content.active div.tasck > div.not:hover {
+	background: #02c1c1;
+}

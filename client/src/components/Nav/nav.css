@@ -1,0 +1,54 @@
+.div_Nav {
+  width: 100%;
+  background: cyan;
+}
+
+.Nav {
+  width: 90%;
+  max-width: 780px;
+  min-width: 560px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 20px 30px;
+}
+
+.Nav_item {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Nav_item > div {
+  border: 1px solid transparent;
+  transition: 0.4s;
+}
+
+.Nav_item > div:hover {
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.Nav_login {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.Nav_login > div {  
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+  border: 1px solid transparent;
+  transition: 0.4s;
+}
+
+.Nav_login > div:hover {
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+}
